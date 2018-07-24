@@ -53,7 +53,9 @@ class ViewControllerTela2: UIViewController {
         
     }
 
-
+    @IBAction func handleBack(_ sender: UIButton) {
+    }
+    
     /*
     // MARK: - Navigation
 

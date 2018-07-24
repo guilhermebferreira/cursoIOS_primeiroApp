@@ -53,6 +53,9 @@
                                 <rect key="frame" x="159" y="291" width="56" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="VOLTAR"/>
+                                <connections>
+                                    <action selector="handleBack:" destination="TSD-00-hxF" eventType="touchUpInside" id="GCk-1i-FAb"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.71273200798633629" blue="0.56140975339282195" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
