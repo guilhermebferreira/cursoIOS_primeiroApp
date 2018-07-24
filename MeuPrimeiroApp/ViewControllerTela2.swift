@@ -11,16 +11,16 @@ import UIKit
 class ViewControllerTela2: UIViewController {
     
     //@IBOutlet -> notation para o Interface Builder
-    //criando uma Outlet para controlar/mainuoular um elemento de interface
-    @IBOutlet weak var vrLabel:UILabel!
-    
-    
+    //criando uma Outlet para controlar/mainuoular um elemento de interface    
     @IBOutlet weak var vrLabelTela: UILabel!
     
     //CHAMADO QUANDO UMA TELA TERMINOU DE SER CARREGADA
     override func viewDidLoad() {
         // Do any additional setup after loading the view, typically from a nib.
         print("TELA 2 TERMINOU O CARREGAMENTO")
+        
+        vrLabelTela.text = "ALO MUNDO TELA"
+        
         super.viewDidLoad()
     }
     
