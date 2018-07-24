@@ -12,6 +12,7 @@
 		20EAC7A8210666DC00EAF67D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20EAC7A6210666DC00EAF67D /* Main.storyboard */; };
 		20EAC7AA2106670B00EAF67D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20EAC7A92106670B00EAF67D /* Assets.xcassets */; };
 		20EAC7AD2106670B00EAF67D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20EAC7AB2106670B00EAF67D /* LaunchScreen.storyboard */; };
+		20EAC7B521074B7800EAF67D /* ViewControllerTela2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EAC7B421074B7700EAF67D /* ViewControllerTela2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		20EAC7A92106670B00EAF67D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20EAC7AC2106670B00EAF67D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20EAC7AE2106670B00EAF67D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20EAC7B421074B7700EAF67D /* ViewControllerTela2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTela2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				20EAC7A2210666DB00EAF67D /* AppDelegate.swift */,
 				20EAC7A4210666DC00EAF67D /* ViewController.swift */,
+				20EAC7B421074B7700EAF67D /* ViewControllerTela2.swift */,
 				20EAC7A6210666DC00EAF67D /* Main.storyboard */,
 				20EAC7A92106670B00EAF67D /* Assets.xcassets */,
 				20EAC7AB2106670B00EAF67D /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				20EAC7A5210666DC00EAF67D /* ViewController.swift in Sources */,
+				20EAC7B521074B7800EAF67D /* ViewControllerTela2.swift in Sources */,
 				20EAC7A3210666DB00EAF67D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
