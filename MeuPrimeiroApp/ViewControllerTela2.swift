@@ -53,7 +53,10 @@ class ViewControllerTela2: UIViewController {
         
     }
 
+    //criando uma action para o botão voltar
+    //@IBAction -> notation do Interface Builder para action
     @IBAction func handleBack(_ sender: UIButton) {
+        self.dismiss(animated: true, completion:  nil) 
     }
     
     /*
